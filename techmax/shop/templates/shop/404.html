@@ -1,0 +1,11 @@
+{% extends 'shop/index.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="d-flex justify-content-center">
+    <img src="{% static 'bilder/404.jpg' %}" class="img-fluid" style="width: 100%; max-width: 2000px;">
+    <div class="spinner-border text-secondary" style="width: 6rem; height: 6rem; position: absolute; left: 26%; top: 11%;"></div>
+</div>
+
+{% endblock content %}
